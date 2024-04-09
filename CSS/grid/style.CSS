@@ -1,0 +1,37 @@
+#parent {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr) 1fr 1fr;
+	grid-gap: 10px;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+}
+#parent > div {
+	height: 100px;
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+/* #parent {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));   
+	             columns-для значений столбцов         
+				repeat(auto-fit или auto-fill, minmax(300px, 1fr)); 
+				auto-fit-подстраивать          minmax(300px, 1fr)
+				минимальное и        ===>    минимальное и максимальное значение
+				максимальное значение 
+                            
+				repeat(3, 200px)
+				3cтольбца по 200px
+
+	grid-template-rows: repeat(3, 1fr);
+	            rows- для значений вряд
+
+	grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+	            примениять значения размеров сразу для cтолбцов и строки через слеш /
+
+	column-gap: 25px;  расстояние между колонками
+	row-gap: 25%;     расстояние между рядами 
+    gap: 10px 10px;  сразу для колонки и для ряда
+	grid-gap: 10px;  cделать плитки 
+} */

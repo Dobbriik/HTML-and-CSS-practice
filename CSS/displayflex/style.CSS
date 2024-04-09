@@ -1,0 +1,31 @@
+#parent {
+	width: 700px;
+	height: 700px;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+}      
+	/* 	display: flex;      Для сточного 
+		flex-direction:      row,column  строчка,столбец
+		justify-content:   flex-start,center, flex-end  рассположить вначале,посередине,вконце относительно direction
+		align-items:     flex-start,center,flex-end сдвинуть по перпендикуляру вверх,по центру, вниз 
+		             stretch    раздвинуть по перпенидикуляру ни не установленной ширине или высоте 
+
+	*/
+    
+
+.child {
+	
+	width: 100px;
+	
+	border: 1px solid pink;
+
+}
+
+.elem {
+	align-self: stretch;
+}
+   
+/* align-self:   как и aling-items только можено пременить для любого дочернего */
